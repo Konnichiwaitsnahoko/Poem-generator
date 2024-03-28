@@ -10,6 +10,7 @@
       rel="stylesheet" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -24,7 +25,8 @@
             placeholder="Enter Your Poem Topic Here..."
             required
             autocomplete="off"
-            class="instraction" />
+            class="instraction" 
+            id="user-instruction"/>
           <input type="submit" value="Generate" class="generate-button" />
         </form>
         <div class="displayed-poem" id="generatedPoem"></div>
