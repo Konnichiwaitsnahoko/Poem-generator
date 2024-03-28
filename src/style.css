@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f0fcf6;
+  font-family: "Baskervville", serif;
+}
+
+a {
+  color: #00a872;
+}
+.container {
+  margin: 120px auto 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+header {
+  padding: 10px;
+}
+h1 {
+  font-family: "Baskervville", serif;
+  font-weight: 900;
+  font-size: 36px;
+  color: #5b7f6f;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.instraction {
+  padding: 10px;
+  width: 80%;
+  color: rgb(43, 39, 39);
+  font-family: "Baskervville", serif;
+  font-size: 15px;
+  border-radius: 50px;
+  border: 1px solid #00a872;
+}
+
+.generate-button {
+  padding: 10px 20px;
+  margin-left: 5px;
+  width: 20%;
+  border-radius: 50px;
+  border: none;
+  font-family: "Baskervville", serif;
+  font-size: 15px;
+  color: rgb(43, 39, 39);
+  background-color: #00a872;
+}
+
+.generate-button:hover {
+  background-color: #f0fcf6;
+  border: 1px solid #00a872;
+  cursor: pointer;
+}
+
+.displayed-poem {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(222, 184, 135, 0.1);
+  font-size: 16px;
+  font: bold;
+  color: #0e0c0c;
+  border-left: 3px solid #00a872;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Baskervville", serif;
+}
