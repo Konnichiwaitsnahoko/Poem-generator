@@ -3,44 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="src/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
     <div class="container">
-    <header>
+      <header>
         <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter Your Poem Topic Here..." autofocus required autocomplete="off" class="instraction">
-            <input type="submit" value="Generate" class="generate-button">
+      </header>
+      <main>
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Enter Your Poem Topic Here..."
+            required
+            autocomplete="off"
+            class="instraction" />
+          <input type="submit" value="Generate" class="generate-button" />
         </form>
-    <div class="displayed-poem">
-        Generated poem will be display here!
-        <br>
-        Two roads diverged in a yellow wood,,,
+        <div class="displayed-poem" id="generatedPoem"></div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Konnichiwaitsnahoko" target="_blank"
+          >Nahoko Park</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/Konnichiwaitsnahoko/Poem-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted by
+        <a href="https://tellmepoem.netlify.app/" target="_blank">Netlify</a>.
+      </footer>
     </div>
-    </main>
-  <footer>
-      This AI project was coded by
-      <a href=https://github.com/Konnichiwaitsnahoko" target="_blank"
-        >Nahoko Park</a
-      >
-      and is open-sourced on
-      <a
-        href="https://github.com/Konnichiwaitsnahoko/Poem-generator"
-        target="_blank"
-        >GitHub</a
-      > and is hosted by <a href="https://tellmepoem.netlify.app/" target="_blank">Netlify</a>.
-    </footer></div>
-    
+
     <script src="src/index.js"></script>
   </body>
 </html>

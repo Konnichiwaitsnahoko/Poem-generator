@@ -39,6 +39,11 @@ form {
   font-size: 15px;
   border-radius: 50px;
   border: 1px solid #00a872;
+  transition: border-color 0.3s;
+}
+
+.instruction:focus {
+  border-color: #ff6347;
 }
 
 .generate-button {
