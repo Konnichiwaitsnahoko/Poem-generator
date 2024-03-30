@@ -1,6 +1,7 @@
 body {
   height: 100vh;
-  overflow: hidden;
+  overflow-y: auto;
+
   background-color: #f0fcf6;
   font-family: "Baskervville", serif;
 }
